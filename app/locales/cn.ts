@@ -141,11 +141,11 @@ const cn = {
 
     Update: {
       Version: (x: string) => `当前版本：${x}`,
-      IsLatest: "已是最新版本",
-      CheckUpdate: "检查更新",
+      IsLatest: " ",
+      CheckUpdate: " ",
       IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
+      FoundUpdate: (x: string) => ` `,
+      GoToUpdate: " ",
     },
     SendKey: "发送键",
     Theme: "主题",
@@ -220,7 +220,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "有什么可以帮你的吗,遇见问题请联系百宝",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

@@ -30,7 +30,7 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
 
   modelConfig: {
-    model: "gpt-3.5-turbo" as ModelType,
+    model: "gpt-3.5-turbo-16k" as ModelType,
     temperature: 0.5,
     max_tokens: 2000,
     presence_penalty: 0,
@@ -103,26 +103,6 @@ export const ALL_MODELS = [
   {
     name: "gpt-3.5-turbo-16k-0613",
     available: true,
-  },
-  {
-    name: "qwen-v1", // 通义千问
-    available: false,
-  },
-  {
-    name: "ernie", // 文心一言
-    available: false,
-  },
-  {
-    name: "spark", // 讯飞星火
-    available: false,
-  },
-  {
-    name: "llama", // llama
-    available: false,
-  },
-  {
-    name: "chatglm", // chatglm-6b
-    available: false,
   },
   {
     name: "midjourney", // midjourney
